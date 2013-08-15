@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Vx Works Example"
+            id="com.category.vx">
+      </category>
+      <wizard
+            category="com.category.vx"
+            class="com.wizards.pages.ProjectNameWizardPage"
+            icon="icons/java_attach.gif"
+            id="com.wizards.SampleNewWizard"
+            name="Vx Works Real Time Process Project">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.importWizards">
+   </extension>
+   <extension
+         point="org.eclipse.ui.exportWizards">
+   </extension>
+
+</plugin>
