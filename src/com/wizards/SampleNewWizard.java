@@ -60,11 +60,9 @@ public class SampleNewWizard extends Wizard implements INewWizard {
 
 	public void addPages() {
 
-		// 添加第一个页面
 		projectNmae = new ProjectNameWizardPage(selection);
 		addPage(projectNmae);
 
-		// 添加的第二个页面
 		page = new SampleNewWizardPage(selection);
 		addPage(page);
 	}
